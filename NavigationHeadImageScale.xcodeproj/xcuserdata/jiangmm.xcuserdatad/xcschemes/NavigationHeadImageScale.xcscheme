@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F577BC481F0F2A4300D6C130"
+               BuildableName = "NavigationHeadImageScale.app"
+               BlueprintName = "NavigationHeadImageScale"
+               ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F577BC611F0F2A4300D6C130"
+               BuildableName = "NavigationHeadImageScaleTests.xctest"
+               BlueprintName = "NavigationHeadImageScaleTests"
+               ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F577BC6C1F0F2A4300D6C130"
+               BuildableName = "NavigationHeadImageScaleUITests.xctest"
+               BlueprintName = "NavigationHeadImageScaleUITests"
+               ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F577BC481F0F2A4300D6C130"
+            BuildableName = "NavigationHeadImageScale.app"
+            BlueprintName = "NavigationHeadImageScale"
+            ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F577BC481F0F2A4300D6C130"
+            BuildableName = "NavigationHeadImageScale.app"
+            BlueprintName = "NavigationHeadImageScale"
+            ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F577BC481F0F2A4300D6C130"
+            BuildableName = "NavigationHeadImageScale.app"
+            BlueprintName = "NavigationHeadImageScale"
+            ReferencedContainer = "container:NavigationHeadImageScale.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
